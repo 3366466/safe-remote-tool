@@ -15,30 +15,30 @@ Educational remote admin tool: execute CMD commands, download files (getfile), u
 
 ```
 trojan/   木马/
-├── client2.py    # 客户端程序
-├── server2.py    # 服务端程序
+├── client.py    # 客户端程序
+├── server.py    # 服务端程序
 └── README.md     # 说明文档
 ```
 
 ## 安装要求
 
-- Python 3.6+   - Python 3.6- Python 3.6 - Python 3.6
+- Python 3.6+   - Python 3.6- Python 3.6 - Python 3.6- Python 3.6- Python 3.6- Python 3.6- Python 3.6- Python 3.6- Python 3.6- Python 3.6- Python 3.6- Python 3.6
 - 无需额外依赖库
 
 ## 使用方法
 
 ### 1. 启动服务端
 
-```bash   ”“bash
-python trojan/server2.py
+```bash   ”“bash   ”“bash”“bash
+python trojan/server2.py   python木马/ server2.py
 ```
 
 服务端将在 `0.0.0.0:8000` 监听客户端连接。
 
 ### 2. 启动客户端
 
-```bash   ”“bash
-python trojan/client2.py
+```bash   ”“bash   ”“bash”“bash“bash”“bash”“bash”“bash”
+python trojan/client.py   python木马/ client.py
 ```
 
 客户端将自动连接到 `127.0.0.1:8000`。
@@ -86,12 +86,12 @@ python trojan/client2.py
 ### 基本操作流程
 
 1. 启动服务端：
-   ```bash   ”“bash   ”“bash”“bash“bash”“bash”“bash”“bash”“bash”“bash”“bash”“bash“bash”“bash”“bash”“bash”
+   ```bash   ”“bash   ”“bash”“bash“bash”“bash”“bash”“bash”“bash”“bash”“bash”“bash“bash”“bash”“bash”“bash”“bash”“bash”“bash”“bash“bash”“bash”“bash”“bash”“bash”“bash”“bash”“bash”bash”“bash”“bash bash”“bash”“bash”“bash”“bash“bash”“bash”“bash”“bash”“bash”“bash”“bash”“bash”bash”“bash”“bash”“bash”“bash”“bash”“bash”“bash“bash”“bash”“bash”“bash”“bash”“bash”“bash”“bash”bash”“bash bash bash”
    python trojan/server2.py   python木马/ server2.py
    ```
 
 2. 启动客户端：
-   ```bash   ”“bash   ”“bash”“bash“bash”“bash”“bash”“bash”
+   ```bash   ”“bash   ”“bash”“bash“bash”“bash”“bash”“bash”“bash”“bash”“bash”“bash“bash”“bash”“bash”“bash”“bash”“bash”“bash”“bash“bash”“bash”“bash”“bash”“bash”“bash”“bash”“bash”bash”“bash”“bash bash”
    python trojan/client2.py   python木马/ client2.py
    ```
 
@@ -106,14 +106,14 @@ python trojan/client2.py
    ✅ 已发送文件 (123 bytes)
    客户端响应: SUCCESS: 文件已保存 - client_test.txt
    
-   >> dir   > >目录
+   >> dir   > >目录- Python 3.6- Python 3.6- Python 3.6- Python 3.6- Python 3.6- Python 3.6
    结果: [目录列表内容]
    ```
 
 ## 注意事项
 
 1. **安全性**：此工具仅用于学习和测试目的，请勿用于非法用途
-2. **防火墙**：确保 8000 端口未被防火墙阻止
+2. **防火墙**：确保 8000 端口未被防火墙阻止“bash”“bash”“bash”“bash”
 3. **文件权限**：确保有足够的文件读写权限- Python 3.6- Python 3.6- Python 3.6
 4. **网络环境**：确保客户端和服务端在同一个网络或可互相访问
 
@@ -139,8 +139,8 @@ python trojan/client2.py
 
 ### 代码结构
 
-- `client2.py`：客户端主程序，处理命令接收和文件传输
-- `server2.py`：服务端主程序，提供命令输入和文件管理
+- `client.py`：客户端主程序，处理命令接收和文件传输
+- `server.py`：服务端主程序，提供命令输入和文件管理
 
 ### 扩展功能
 
